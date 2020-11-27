@@ -1,0 +1,17 @@
+3) Si l'on tape "m;;", il vaut toujours le cube de n car m est défini comme étant la valeur du cube de n, il n'a pas été redéfini avec la nouvelle valeur de n.
+   C'est normal.
+
+4) n - n;; : - : int = 0
+   x - x;; : Error: Unbound value x
+
+5) Avant : n vaut 120
+   Pendant : n vaut 27 000
+   Après : n vaut 120
+
+10) 9;; :       - : int = 9
+    '9';; :  	- : char = '9'
+    "9";; : 	- : string = "9"
+    9.0;; : 	- : float = 9.
+
+12) Exception: Failure "int_of_string".
+    On ne peut pas convertir une chaîne de caractère en entier s'il y a une valeur décimale dans la chaîne. Il faut d'abord convertir le string en float puis en int.
